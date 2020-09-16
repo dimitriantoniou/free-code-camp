@@ -1,0 +1,5 @@
+// Only change code below this line
+var myArray = [
+  ["People",10],
+  ["Animals",20]
+];
