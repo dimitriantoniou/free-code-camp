@@ -1,0 +1,7 @@
+let dog = {
+  name: "Fido",
+  numLegs: 4,
+  bark: true,
+  tail: "sometimes",
+
+};
