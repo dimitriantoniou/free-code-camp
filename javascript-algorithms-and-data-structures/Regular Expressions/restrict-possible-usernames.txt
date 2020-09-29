@@ -1,0 +1,6 @@
+let username = "JackOfAllTrades";
+let userCheck = /^[a-z][a-z]+\d*$|^[a-z]\d\d+$/i;
+//starts with letter, continues with letters, ends with numbers
+//OR
+//starts with letter, ends with 2 or more numbers
+let result = userCheck.test(username);
