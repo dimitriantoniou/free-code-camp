@@ -1,0 +1,11 @@
+function confirmEnding(str, target) {
+let regex=new RegExp(target+"$")
+let result = regex.test(str);
+return(result);
+}
+/*
+let caboose = "The last car on a train is the caboose";
+let lastRegex = /caboose$/; // 
+let result = lastRegex.test(caboose);
+*/
+confirmEnding("Bastian", "n");
