@@ -1,0 +1,15 @@
+function getIndexToIns(arr, num) {
+  //if the num is in the array, sort and return index
+  if (arr.indexOf(num)!=-1){
+    arr.sort((a,b)=>a-b);
+    return arr.indexOf(num);
+  }else {
+    //if the num is not in the array, add it, sort, find its index
+  let newArr = [...arr];
+  newArr.push(num);
+  newArr.sort((a,b)=>a-b);
+  return newArr.indexOf(num);
+}
+}
+
+getIndexToIns([40, 60], 50);
