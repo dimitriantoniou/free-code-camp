@@ -1,11 +1,15 @@
 function bouncer(arr) {
-  let array =[];
-  for (let i=0;i<arr.length;i++){
-    if(arr[i]){
-      array.push(arr[i]);
-    }
+//create a blank array
+//if the arr element is true (i.e. not falsy), add it to the new array
+// return the new array
+
+let newArr=[];
+for (let i=0;i<arr.length;i++){
+  if(arr[i]){
+      newArr.push(arr[i]);
   }
-  return array;
+}
+  return newArr;
 }
 
 bouncer([7, "ate", "", false, 9]);
