@@ -1,0 +1,16 @@
+// Only change code below this line
+function urlSlug(title) {
+let newTitle=title.trim().toLowerCase();
+let array=newTitle.split(/\s+/)
+let url=array.join("-");
+return url;
+}
+/*
+return title
+    .toLowerCase()
+    .trim()
+    .split(/\s+/)
+    .join("-");
+}
+*/
+// Only change code above this line
