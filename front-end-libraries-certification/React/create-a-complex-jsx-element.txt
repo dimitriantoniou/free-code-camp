@@ -1,0 +1,9 @@
+let JSX=<div>
+    <h1>My React List</h1>
+    <p>React is maintained by Facebook! It helps with:</p>
+    <ul>
+        <li>Creating a user interface</li>
+        <li>Writing JS in HTML</li>
+        <li>Getting a job as a developer</li>
+    </ul>
+</div>
